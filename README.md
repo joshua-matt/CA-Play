@@ -7,9 +7,9 @@ A 2-state cellular automaton is a grid of cells, where each cell is either "aliv
 of rules whereby, based on the number of its neighbors that are "on", each cell's state in the next generation 
 is determined. For example, the most famous cellular automaton, called Conway's Game of Life, has the following 
 rules:
-	1. If a live cell has exactly 2 or 3 live neighbors, it survives to the next generation.
-	2. If a dead cell has exactly 3 live neighbors, it becomes a live cell.
-	3. Otherwise, the cell dies or stays dead.
+1. If a live cell has exactly 2 or 3 live neighbors, it survives to the next generation.
+2. If a dead cell has exactly 3 live neighbors, it becomes a live cell.
+3. Otherwise, the cell dies or stays dead.
 From these three simple rules, incredibly complex patterns emerge - stable patterns that endure unless disturbed,
 oscillators that cycle through a set of states, and gliders that precess across the grid. The beauty of Life,
 and of cellular automata in general, is this complexity: that behavior both unpredictable yet ordered can result
@@ -39,13 +39,13 @@ zoom, and select regions to fill, delete, randomize, or invert.
 
 The tool panel allows you to select which tool you want to use and view information about it. The tools displayed, 
 from left to right, are:
-	- Mover: The mover allows you to click and drag to move around the grid. Right click to return to the origin.
-	- Zoomer: For touchpad folk, the zoomer allows you to left click to zoom in and right click to zoom out. For mouse folk, the same effect can be achieved by scrolling the mouse wheel.
-	- Painter: The painter allows you to draw cells on the grid by clicking and dragging. Left click draws live cells, right click draws dead cells.
-	- Selector: The selector allows you to select regions of the grid and then choose an action to perform on that region, such as filling it with live cells.
-	- Structure Adder: The Structure Adder allows you to add a structure to the grid by clicking or select a region of the grid to export to the Structure Creator.
-* Note that the Structure Adder is not present in the Structure Creator. If you wish to incorporate smaller structures
-  into a larger structure, draw it on the grid, then select it using the structure adder.
+* Mover: The mover allows you to click and drag to move around the grid. Right click to return to the origin.
+* Zoomer: For touchpad folk, the zoomer allows you to left click to zoom in and right click to zoom out. For mouse folk, the same effect can be achieved by scrolling the mouse wheel.
+* Painter: The painter allows you to draw cells on the grid by clicking and dragging. Left click draws live cells, right click draws dead cells.
+* Selector: The selector allows you to select regions of the grid and then choose an action to perform on that region, such as filling it with live cells.
+* Structure Adder: The Structure Adder allows you to add a structure to the grid by clicking or select a region of the grid to export to the Structure Creator.
+* 
+Note that the Structure Adder is not present in the Structure Creator. If you wish to incorporate smaller structures into a larger structure, draw it on the grid, then select it using the structure adder.
 
 ### The Structure Selector
 
@@ -57,16 +57,12 @@ or delete it, which permanently removes the structure.
 ### The Rule Setter
 
 The rule setter panel allows you to create, save, load, and delete rulesets. 
-      - To create a new ruleset, simply type the number of neighbors a cell needs to survive and to be born into the 
-	corresponding text fields. For the more adventurous, there is also the ability to change the neighborhood shape that 
-	is used to calculate neighbors. Neighborhoods include the Moore neighborhood, which consists of all 8 adjacent cells, 
-	the Von Neumann neighborhood, which consists of all 4 orthogonal cells (a cross), and the Hexagonal neighborhood, 
-	which is a Moore neighborhood minus the upper-right and lower-left cells. 
-      - To save a ruleset, click "Save" and then name it. You will then be able to load the ruleset in the future.
-      - To load a ruleset, click the dropdown menu and select the ruleset you want.
-      - To delete a ruleset, just click delete.
-* Although rulesets can be changed while the grid is evolving (and this looks pretty cool), sometimes it doesn't work. If this
-  happens, pause evolution and click 'Apply'.
+* To create a new ruleset, simply type the number of neighbors a cell needs to survive and to be born into the corresponding text fields. For the more adventurous, there is also the ability to change the neighborhood shape that is used to calculate neighbors. Neighborhoods include the Moore neighborhood, which consists of all 8 adjacent cells, the Von Neumann neighborhood, which consists of all 4 orthogonal cells (a cross), and the Hexagonal neighborhood, which is a Moore neighborhood minus the upper-right and lower-left cells. 
+* To save a ruleset, click "Save" and then name it. You will then be able to load the ruleset in the future.
+* To load a ruleset, click the dropdown menu and select the ruleset you want.
+* To delete a ruleset, just click delete.
+* 
+Although rulesets can be changed while the grid is evolving (and this looks pretty cool), sometimes it doesn't work. If this happens, pause evolution and click 'Apply'.
 
 ### The Player
 
