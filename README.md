@@ -1,7 +1,7 @@
 # CA-Play
 Welcome to CA Play, a software program for simulating and interacting with 2-state cellular automata!
 
-## WHAT IS A CELLULAR AUTOMATON?
+## What is a Cellular Automaton?
 
 A 2-state cellular automaton is a grid of cells, where each cell is either "alive" or "dead", equipped with a set 
 of rules whereby, based on the number of its neighbors that are "on", each cell's state in the next generation 
@@ -15,19 +15,19 @@ oscillators that cycle through a set of states, and gliders that precess across 
 and of cellular automata in general, is this complexity: that behavior both unpredictable yet ordered can result
 from simple rules.
 
-## WHAT IS THIS PROGRAM, ANYWAYS?
+## What is this program?
 
 As stated above, CA Play provides you with an environment in which to experiment and play with simple cellular
 automata. The primary element of the program is the grid, which you can manipulate with the several tools provided
 to you. Though the program comes with preset rules and structures, you can create and save your own.
 
-## HOW DO I USE THIS PROGRAM?
+## How do I use this program??
 
 This program has several parts, each of which will be covered in detail: the tool panel, the rule setter,
 the structure selector, the structure creator, the player, and the grid.
 
 
-### THE STRUCTURE CREATOR
+### The Structure Creator
 
 Have a cool pattern you want to create, but don't want to draw it manually on the grid every time? The 
 Structure Creator has got you covered. In this grid environment, you only have to draw the structure once,
@@ -35,7 +35,7 @@ name it, then save it. Once you've done this, you can place the pattern wherever
 a single click of the mouse. In the Structure Creator, not only can you draw cells, but you can also move around,
 zoom, and select regions to fill, delete, randomize, or invert.
 
-### THE TOOL PANEL
+### The Tool Panel
 
 The tool panel allows you to select which tool you want to use and view information about it. The tools displayed, 
 from left to right, are:
@@ -51,14 +51,14 @@ from left to right, are:
 * Note that the Structure Adder is not present in the Structure Creator. If you wish to incorporate smaller structures
   into a larger structure, draw it on the grid, then select it using the structure adder.
 
-### THE STRUCTURE SELECTOR
+### The Structure Selector
 
 The structure selector panel shows you all of the structures you have saved, displaying their appearance and name. To view a
 structure's description, mouse over it. Furthermore, the structure selector, unsurprisingly, allows you to select which
 structure you want to add to the grid. You can also choose to edit a structure, which opens it in the Structure Creator,
 or delete it, which permanently removes the structure.
 
-### THE RULE SETTER
+### The Rule Setter
 
 The rule setter panel allows you to create, save, load, and delete rulesets. 
       - To create a new ruleset, simply type the number of neighbors a cell needs to survive and to be born into the 
@@ -72,12 +72,12 @@ The rule setter panel allows you to create, save, load, and delete rulesets.
 * Although rulesets can be changed while the grid is evolving (and this looks pretty cool), sometimes it doesn't work. If this
   happens, pause evolution and click 'Apply'.
 
-### THE PLAYER
+### The Player
 
 The player is located at the bottom of the main frame. Through this panel, you can control the playback of grid evolution
 by playing/pausing, stepping forward and back, and changing evolution speed.
 
-### THE GRID
+### The Grid
 
 The grid is where it all comes together. With a tool selected, you can click on the grid to edit it or maneuver around it.
 By using the player, you can change the playback of the grid. You can also save and load grids. To do this, click "File"
