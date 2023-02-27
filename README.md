@@ -40,14 +40,10 @@ zoom, and select regions to fill, delete, randomize, or invert.
 The tool panel allows you to select which tool you want to use and view information about it. The tools displayed, 
 from left to right, are:
 	- Mover: The mover allows you to click and drag to move around the grid. Right click to return to the origin.
-	- Zoomer: For touchpad folk, the zoomer allows you to left click to zoom in and right click to zoom out.
-		  For mouse folk, the same effect can be achieved by scrolling the mouse wheel.
-	- Painter: The painter allows you to draw cells on the grid by clicking and dragging. Left click draws
-		   live cells, right click draws dead cells.
-	- Selector: The selector allows you to select regions of the grid and then choose an action to 
-		    perform on that region, such as filling it with live cells.
-	- Structure Adder: The Structure Adder allows you to add a structure to the grid by clicking or
-			   select a region of the grid to export to the Structure Creator.
+	- Zoomer: For touchpad folk, the zoomer allows you to left click to zoom in and right click to zoom out. For mouse folk, the same effect can be achieved by scrolling the mouse wheel.
+	- Painter: The painter allows you to draw cells on the grid by clicking and dragging. Left click draws live cells, right click draws dead cells.
+	- Selector: The selector allows you to select regions of the grid and then choose an action to perform on that region, such as filling it with live cells.
+	- Structure Adder: The Structure Adder allows you to add a structure to the grid by clicking or select a region of the grid to export to the Structure Creator.
 * Note that the Structure Adder is not present in the Structure Creator. If you wish to incorporate smaller structures
   into a larger structure, draw it on the grid, then select it using the structure adder.
 
