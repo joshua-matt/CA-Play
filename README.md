@@ -72,12 +72,12 @@ The rule setter panel allows you to create, save, load, and delete rulesets.
 * Although rulesets can be changed while the grid is evolving (and this looks pretty cool), sometimes it doesn't work. If this
   happens, pause evolution and click 'Apply'.
 
-## THE PLAYER
+### THE PLAYER
 
 The player is located at the bottom of the main frame. Through this panel, you can control the playback of grid evolution
 by playing/pausing, stepping forward and back, and changing evolution speed.
 
-## THE GRID
+### THE GRID
 
 The grid is where it all comes together. With a tool selected, you can click on the grid to edit it or maneuver around it.
 By using the player, you can change the playback of the grid. You can also save and load grids. To do this, click "File"
