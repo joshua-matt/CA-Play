@@ -44,7 +44,7 @@ from left to right, are:
 * Painter: The painter allows you to draw cells on the grid by clicking and dragging. Left click draws live cells, right click draws dead cells.
 * Selector: The selector allows you to select regions of the grid and then choose an action to perform on that region, such as filling it with live cells.
 * Structure Adder: The Structure Adder allows you to add a structure to the grid by clicking or select a region of the grid to export to the Structure Creator.
-* 
+
 Note that the Structure Adder is not present in the Structure Creator. If you wish to incorporate smaller structures into a larger structure, draw it on the grid, then select it using the structure adder.
 
 ### The Structure Selector
@@ -61,7 +61,7 @@ The rule setter panel allows you to create, save, load, and delete rulesets.
 * To save a ruleset, click "Save" and then name it. You will then be able to load the ruleset in the future.
 * To load a ruleset, click the dropdown menu and select the ruleset you want.
 * To delete a ruleset, just click delete.
-* 
+
 Although rulesets can be changed while the grid is evolving (and this looks pretty cool), sometimes it doesn't work. If this happens, pause evolution and click 'Apply'.
 
 ### The Player
